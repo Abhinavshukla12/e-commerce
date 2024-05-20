@@ -38,24 +38,6 @@ function shop() {
    document.getElementById("contact").style.color="black";
 }
 
-
-function blog() {
-
-   cardMen.style.display = "none";
-   cardgirl.style.display = "none";
-   mainPage.style.display = "none";
-   blogContent.style.display = "block"
-   aboutPage.style.display = "none";
-   contactus.style.display="none"
-
-   document.getElementById("blog").style.color = "rgb(1, 190, 190)";
-   document.getElementById("home").style.color = "black"
-   document.getElementById("shop").style.color = "black"
-   document.getElementById("about").style.color = "black";
-   document.getElementById("contact").style.color="black";
-}
-
-
 function about() {
    aboutPage.style.display = "block";
    cardMen.style.display = "none";
