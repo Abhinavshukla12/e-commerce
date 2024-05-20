@@ -5,9 +5,6 @@ let cardgirl = document.querySelector(".cardgirl");
 let aboutPage = document.querySelector(".about");
 let contactus = document.querySelector(".contact");
 
-
-
-
 function home() {
    mainPage.style.display = "flex";
    cardMen.style.display = "block";
@@ -21,7 +18,6 @@ function home() {
    document.getElementById("about").style.color = "black";
    document.getElementById("contact").style.color="black";
 }
-
 
 function shop() {
    cardMen.style.display = "block";
@@ -90,14 +86,13 @@ function addItem(){
    cardgirl.style.display = "none";
    mainPage.style.display = "none";
    blogContent.style.display = "none"
-
- 
-
-
-
 }
  
 function addToCart(){
    alert("Added To Cart");
    location.reload();
 }
+
+document.getElementById('exploreButton').addEventListener('click', function() {
+   shop(); // Call the shop function to navigate to the Shops page
+});
